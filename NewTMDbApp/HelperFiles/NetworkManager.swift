@@ -10,7 +10,8 @@ import Foundation
 class NetworkManager {
     static let shared = NetworkManager()
     static let imageBaseUrl = "https://image.tmdb.org/t/p/w500"
-    private let apiKey = "YOUR API KEY"
+    
+    private let apiKey = "09bbbcd5e38e6978a7c08bf1b838ea0a" /*"YOUR API KEY"*/
     private let baseURL = "https://api.themoviedb.org/3/"
     
     
